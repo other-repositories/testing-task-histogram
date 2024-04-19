@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     reader_use_case.SetReader(reader);
 
     QQmlApplicationEngine engine;
-    const QUrl url(u"qrc:/histogram/main.qml"_qs);
+    const QUrl url(u"qrc:/histogram/qml/main.qml"_qs);
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
         if (!obj && url == objUrl)

@@ -43,7 +43,7 @@ Window {
             width: 150
             Image {
                anchors.fill: parent
-               source: "images/open_icon.png"
+               source: "../images/open_icon.png"
             }
         }
         Text {
@@ -167,7 +167,7 @@ Window {
             id: pauseImage
             anchors.centerIn: parent
             scale:0.2
-            source: "images/pause_icon.png"
+            source: "../images/pause_icon.png"
 
             SequentialAnimation {
                 id: opacityAnimation

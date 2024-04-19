@@ -8,24 +8,24 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 
 qt_add_executable(apphistogram
-    main.cpp
-    histogram.cpp
-    model.cpp
-    use_case.cpp
-    use_case_histogram_impl.cpp
-    use_case_reader_impl.cpp
-    data_reader.cpp
+    source/main.cpp
+    source/histogram.cpp
+    source/model.cpp
+    source/use_case.cpp
+    source/use_case_histogram_impl.cpp
+    source/use_case_reader_impl.cpp
+    source/data_reader.cpp
 )
 
 qt_add_qml_module(apphistogram
     URI histogram
     VERSION 1.0
     QML_FILES
-    main.qml
-    HistogramWidget.qml
-    RightBar.qml
-    CustomWarningPopup.qml
-    CustomButton.qml
+    qml/main.qml
+    qml/HistogramWidget.qml
+    qml/RightBar.qml
+    qml/CustomWarningPopup.qml
+    qml/CustomButton.qml
     images/open_icon.png
     images/pause_icon.png
     images/histogram_logo.png
