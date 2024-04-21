@@ -12,7 +12,7 @@
 - Скачать release
 
 ## Архитектура
-![diagram](https://github.com/other-repositories/testing-task-histogram/assets/92841151/a339cce4-95e6-49c4-914e-69d926a153ad)
+![image](https://github.com/other-repositories/testing-task-histogram/assets/92841151/786a6242-faa3-4d95-bf08-36ab92ab76e0)
 
 ## Логика работы
 - Загрузите исходный файл любого формата, где содержится какой-либо текст
